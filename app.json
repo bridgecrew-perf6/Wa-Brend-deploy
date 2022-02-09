@@ -1,14 +1,14 @@
 {
-    "name": "WhatsApoduplicated",
-    "logo": "https://i.hizliresim.com/m5nm0yt.png",
+    "name": "Wa-Brend",
+    "logo": "https://telegra.ph/file/fabacf05ad4acc724fe2e.jpg",
     "keywords": ["whatsapp", "bot", "api", "ai"],
-    "repository": "https://github.com/abdullah5151/WhatsApoDuplicated",
+    "repository": "https://github.com/cu3131/duzenle-burayi",
     "website":   "https://i.hizliresim.com/m5nm0yt.png",
-    "success_url": "https://t.me/AsenaSupport",
+    "success_url": "https://t.me/aliyefh_sos",
     "stack": "container",
     "env": {
-        "ASENA_SESSION": {
-            "description": "Qr.Js ile oluşturduğunuz özel session kodu. Type here yours Asena Session.",
+        "Wa-Brend_SESSION": {
+            "description": "Qr.Js ile oluşturduğunuz özel session kodu. Type here yours Wa-Brend Session.",
             "required": true
         },
         "SUDO": {
@@ -18,7 +18,7 @@
         "LANGUAGE": {
             "description": "Bot language. Azerice => az, English => en, Türkçe => tr, Malayalam => ml, Hindi => HI, Indonesia => ID, Español => ES, Portuguese => pt, Russian => ru",
             "required": true,
-            "value": "TR"
+            "value": "az"
         },
         "ANTİ_LİNK": {
             "description": "Link Engelleme Sistemi. Link Blocking System.",
@@ -48,7 +48,7 @@
         "SEND_READ": {
             "description": "Görüldü atmak istiyorsanız true yazın. Write true if you want to throw seen.",
             "required": true,
-            "value": "true"
+            "value": "false"
         },
         "HEROKU": {
             "description": "Herokuda çalışıyorsa true yazın. If it is running in Heroku, type true.",
@@ -85,7 +85,7 @@
             "value": "default"
         },
         "WORK_TYPE": {
-            "description": "WhatsAsena Working Type. If you use “public”, everyone can use the bot. Else if you use “private”, only you can use your bot.",
+            "description": "Wa-Brend Working Type. If you use “public”, everyone can use the bot. Else if you use “private”, only you can use your bot.",
             "required": true,
             "value": "private"
         },
@@ -140,7 +140,7 @@
         "GAN_IMAGE": {
             "description": "Gan Style eklentisi için resim bağlantısı yazın. Type image link for Gan Style plugin.",
             "required": true,
-            "value": "https://i.hizliresim.com/loUtAb.jpg"
+            "value": "https://telegra.ph/file/fabacf05ad4acc724fe2e.jpg"
         },
         "NO_ONLINE": {
             "description": "Çevrimiçi görünmek istemiyorsanız true yazın. Type true if you don't want to appear online.",
